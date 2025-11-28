@@ -1,6 +1,8 @@
-👊✋✌️ Jokenpô (Pedra, Papel e Tesoura) - Python
+# 👊✋✌️ Jokenpô (Pedra, Papel e Tesoura) - Python
 
 Projeto desenvolvido em Python rodando no terminal. O objetivo foi criar um jogo interativo contra o computador, aplicando conceitos de lógica de programação, condicionais complexas e dicionários.
+
+---
 
 ## 📂 Modos de Jogo Disponíveis
 
@@ -8,10 +10,13 @@ Este repositório conta com **duas versões** do jogo. Escolha a sua preferida:
 
 ### 1. Clássico (`jokenpo.py`)
 A versão tradicional com Pedra, Papel e Tesoura.
+
 - **Regras:** Pedra quebra Tesoura, Tesoura corta Papel, Papel cobre Pedra.
 - **Como rodar:**
+
 ```bash
 python jokenpo.py
+```
 2. The Big Bang Theory Edition (jokenpo_sheldon.py)
 Versão expandida e mais desafiadora, baseada na série The Big Bang Theory.
 
@@ -22,10 +27,10 @@ Complexidade: 10 condições de vitória diferentes mapeadas.
 Narrativa: O jogo descreve a ação da vitória (ex: "Spock vaporiza Pedra").
 
 Como rodar:
-
-Bash
-
+```bash
 python jokenpo_sheldon.py
+```
+```bash
 🛠️ Funcionalidades Técnicas
 [x] Inteligência do PC: Escolhas aleatórias com random.
 
@@ -34,5 +39,5 @@ python jokenpo_sheldon.py
 [x] Validação de Input: Bloqueio de entradas inválidas.
 
 [x] Placar de Estado: Jogo em "Melhor de 5", mantendo a contagem de pontos rodada a rodada.
-
-Desenvolvido por Felipe Campos 🦁
+```
+Desenvolvido por Felipe de Campos 🦁
