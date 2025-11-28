@@ -7,7 +7,7 @@ pc = 0
 print('SEJAM BEM VINDO AO PEDRA, PAPEL OU TESOURAAAA, TENTE GANHAR DA MAQUINA!!!')
 
 while True:    
-    print(f'ladies and gentlemens, o placar até o momento está {jg} para o jogador x {pc} para o computador')
+    print(f'ladies and gentlemens, o placar até o momento está {jg} para o jogador x {pc} para o computador'.upper())
         
     pc_escolha = random.choice(j1)
     jg_escolha = input('FAÇA SUA ESCOLHAAA! ').upper()
@@ -26,9 +26,9 @@ while True:
     else:
         print('POOOOOOOOOOOOOONTO DA MAQUINAAAAAAAA')
         pc= pc + 1
-    if jg == 3:
+    if jg == 5:
         print('VOCÊ É O GRANDE VENCEDOOOOR!!! ')
         break
-    elif pc == 3:
+    elif pc == 5:
         print('BRUTAL!! NÃO SOBROU NADA PARA O BETA')
         break
