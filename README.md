@@ -17,7 +17,7 @@ A versão tradicional com Pedra, Papel e Tesoura.
 ```bash
 python jokenpo.py
 ```
-2. The Big Bang Theory Edition (jokenpo_sheldon.py)
+### 2. The Big Bang Theory Edition (jokenpo_sheldon.py)
 Versão expandida e mais desafiadora, baseada na série The Big Bang Theory.
 
 Novidades: Adicionadas as opções Lagarto e Spock.
@@ -32,12 +32,12 @@ python jokenpo_sheldon.py
 ```
 ```bash
 🛠️ Funcionalidades Técnicas
-[x] Inteligência do PC: Escolhas aleatórias com random.
+✅ Inteligência do PC: Escolhas aleatórias com random.
 
-[x] Dicionários de Narrativa: Uso de estrutura Chave: Valor para gerar frases de vitória dinâmicas (ex: "Esmaga", "Corta", "Refuta").
+✅ Dicionários de Narrativa: Uso de estrutura Chave: Valor para gerar frases de vitória dinâmicas (ex: "Esmaga", "Corta", "Refuta").
 
-[x] Validação de Input: Bloqueio de entradas inválidas.
+✅ Validação de Input: Bloqueio de entradas inválidas.
 
-[x] Placar de Estado: Jogo em "Melhor de 5", mantendo a contagem de pontos rodada a rodada.
+✅ Placar de Estado: Jogo em "Melhor de 3", mantendo a contagem de pontos rodada a rodada.
 ```
 Desenvolvido por Felipe de Campos 🦁
